@@ -17,7 +17,7 @@ BLUE = (0, 0, 255)
 BLACK = (0, 0, 0)
 
 # 플레이어
-player = pygame.Rect(WIDTH // 2 - 50, HEIGHT - 60, 50, 50)
+player = pygame.Rect(WIDTH // 2 - 25, HEIGHT - 60, 25, 25)
 player_speed = 7
 
 # 장애물
