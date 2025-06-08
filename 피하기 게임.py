@@ -14,9 +14,10 @@ clock = pygame.time.Clock()
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 BLUE = (0, 0, 255)
+BLACK = (0, 0, 0)
 
 # 플레이어
-player = pygame.Rect(WIDTH // 2 - 25, HEIGHT - 60, 50, 50)
+player = pygame.Rect(WIDTH // 2 - 50, HEIGHT - 60, 50, 50)
 player_speed = 7
 
 # 장애물
@@ -60,7 +61,7 @@ while running:
         running = False
 
     # 그리기
-    pygame.draw.rect(screen, BLUE, player)
+    pygame.draw.rect(screen, BLACK, player)
     pygame.draw.rect(screen, RED, enemy)
     score_text = font.render("Score: " + str(score), True, (0, 0, 0))
     screen.blit(score_text, (10, 10))
