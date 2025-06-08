@@ -4,7 +4,7 @@ import sys
 
 # 초기 설정
 pygame.init()
-WIDTH, HEIGHT = 480, 640
+WIDTH, HEIGHT = 720, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("피하기 게임")
 
